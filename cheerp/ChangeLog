@@ -1,0 +1,93 @@
+Cheerp: C++ for the Web
+
+Version 1.2.1:
+
+	* Fixed encoding of literal strings in JS
+	* Minor fixes
+
+Version 1.2:
+
+	* Based on updated LLVM/clang
+	* Support covariant return types
+	* Add support for 64-bit integers
+	* Support RTTI and dynamic_cast
+	* Improved compiler diagnostic messages
+	* Reduced code size
+	* Reduced code startup time
+	* Improved performance of generated code
+	* Support JavaScript module pattern
+	* Improved SourceMaps
+
+Version 1.1:
+
+	* Greatly improved performance for the generated code
+
+Version 1.0:
+
+	* Greatly improved clientlib.h header
+	* Generated Doxygen documentation for Web APIs
+	* Several fixes to robustness and performance
+
+Version 0.9.6:
+
+	* Initial support for debugging using Source Maps
+	* Improved type safety of SROA optimization and enabled it
+	* Collapse allocations when possible
+	* Enable GNU extensions to C++ by default
+	* Generate "strict" mode JavaScript
+	* Explicitly disable unsupported sets and maps of pointers
+	* Fixed std set and map for other types
+
+Version 0.9.5:
+
+	* Rebase on top of current LLVM/clang
+	* Several bug fixes
+
+Version 0.9.4:
+
+	* Reduce verbosity of type safety warning
+	* Add cheerp version to clang --version
+	* Cleanup examples
+	* Support C++ mutex/atomic/thread headers
+	* Initial support for promise based async RPC
+	* [[jsexport]] attribute to use C++ objects from JavaScript
+	* __asm__ to execute JavaScript from C++ code
+
+Version 0.9.3:
+
+	* Support memset with non-constant values
+	* stdout/stderr support
+	* Added server.h to the installed files
+	* The cheerp.js utility file is not needed anymore
+	* Use C++11 by default
+
+Version 0.9.2:
+
+	* First webGLES release
+	* Improved toolchain usability
+	* Automatic linking to system libraries
+	* Mac OS X build
+
+Version 0.9.1:
+
+	* Minor bug fixes
+
+Version 0.9:
+
+	* First release to the public
+
+Version 0.3:
+
+	* Rebased over LLVM 3.3
+	* Restored support for client/server RPCs
+	* Improved robustness
+
+Version 0.2:
+
+	* Support for libc, libc++, libc++abi
+	* Support for clean cross compiling using CMake
+
+Version 0.1.4:
+
+	* Support for virtual calls
+	* Removed hardcoded paths for includes
